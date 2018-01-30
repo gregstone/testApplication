@@ -1,2 +1,30 @@
 <div id="containerHome"></div>
 <script src="/react/landingpage.js"></script>
+
+<h2>Formulaire de contact</h2>
+
+<form method="post" action="/saveContactInfo">
+ 
+    <label>Name
+        <br> 
+        <input name="name" type="text"></input>
+    </label>
+
+    <br>
+
+    <label>Email 
+        <br>
+        <input type="text" name="email"></input>
+    </label>
+
+    <br>
+
+    <label>Message 
+        <br>
+        <textarea name="message" placeholder="Entrer votre message ici"></textarea>
+    </label>
+
+    <br>
+
+    <button type="submit">Submit</button>
+</form>
